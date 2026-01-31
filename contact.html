@@ -1,14 +1,52 @@
-<section class="contact-section">
-  <h2 data-lang="en">Contact Us</h2>
-  <h2 data-lang="fr">Contactez-nous</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Data Storytellers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  <p data-lang="en">
-    Interested in working with us? Email: 
-    <a href="mailto:eliassetiao@gmail.com"><strong>eliassetiao@gmail.com</strong></a>
-  </p>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">DST</a>
+    </div>
+    <ul>
+      <li><a href="index.html" data-lang="en">Home</a><a href="index.html" data-lang="fr">Accueil</a></li>
+      <li><a href="about.html" data-lang="en">About</a><a href="about.html" data-lang="fr">À propos</a></li>
+      <li><a href="projects.html" data-lang="en">Projects</a><a href="projects.html" data-lang="fr">Projets</a></li>
+      <li><a href="team.html" data-lang="en">Team</a><a href="team.html" data-lang="fr">Équipe</a></li>
+      <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="fr">Contactez-nous</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="setLanguage('fr')">FR</button>
+    </div>
+  </nav>
 
-  <p data-lang="fr">
-    Vous souhaitez collaborer avec nous ? Email : 
-    <a href="mailto:eliassetiao@gmail.com"><strong>eliassetiao@gmail.com</strong></a>
-  </p>
-</section>
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <h2 data-lang="en">Contact Us</h2>
+    <h2 data-lang="fr">Contactez-nous</h2>
+
+    <p data-lang="en">
+      Interested in working with us? Email: 
+      <a href="mailto:eliassetiao@gmail.com"><strong>eliassetiao@gmail.com</strong></a>
+    </p>
+
+    <p data-lang="fr">
+      Vous souhaitez collaborer avec nous ? Email : 
+      <a href="mailto:eliassetiao@gmail.com"><strong>eliassetiao@gmail.com</strong></a>
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Data Storytellers. All rights reserved.</p>
+  </footer>
+
+  <script src="lang.js"></script>
+</body>
+</html>
