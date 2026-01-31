@@ -1,28 +1,64 @@
-<section class="hero">
-  <div class="hero-content">
-    <h1 data-lang="en">Data-driven insights for decision-makers</h1>
-    <h1 data-lang="fr">Des analyses de données au service des décideurs</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Storytellers (DST)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="nav-left">
+      <a href="index.html" data-lang="en">Home</a>
+      <a href="index.html" data-lang="fr">Accueil</a>
 
-    <h2 data-lang="en">Turning complex data into actionable strategies</h2>
-    <h2 data-lang="fr">Transformer les données complexes en stratégies concrètes</h2>
+      <a href="about.html" data-lang="en">About</a>
+      <a href="about.html" data-lang="fr">À propos</a>
 
-    <p data-lang="en">
-      Data Storytellers (DST) is a leading data consulting firm providing analytics,
-      dashboards, AI solutions, and evidence-based decision support for businesses and institutions.
-    </p>
+      <a href="projects.html" data-lang="en">Projects</a>
+      <a href="projects.html" data-lang="fr">Projets</a>
 
-    <p data-lang="fr">
-      Data Storytellers (DST) est un cabinet de conseil en données de référence,
-      offrant analyse, tableaux de bord, solutions IA et appui à la décision basé sur les données
-      pour les entreprises et institutions.
-    </p>
-
-    <div class="hero-buttons">
-      <a class="btn" href="projects.html" data-lang="en">See Our Projects</a>
-      <a class="btn" href="projects.html" data-lang="fr">Voir nos projets</a>
-
-      <a class="btn secondary" href="contact.html" data-lang="en">Contact Us</a>
-      <a class="btn secondary" href="contact.html" data-lang="fr">Contactez-nous</a>
+      <a href="contact.html" data-lang="en">Contact</a>
+      <a href="contact.html" data-lang="fr">Contact</a>
     </div>
-  </div>
-</section>
+
+    <div class="nav-right">
+      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="setLanguage('fr')">FR</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 data-lang="en">Data-driven insights for decision-makers</h1>
+      <h1 data-lang="fr">Des analyses de données au service des décideurs</h1>
+
+      <h2 data-lang="en">Turning complex data into actionable strategies</h2>
+      <h2 data-lang="fr">Transformer les données complexes en stratégies concrètes</h2>
+
+      <p data-lang="en">
+        Data Storytellers (DST) is a leading data consulting firm providing analytics,
+        dashboards, AI solutions, and evidence-based decision support for businesses and institutions.
+      </p>
+
+      <p data-lang="fr">
+        Data Storytellers (DST) est un cabinet de conseil en données de référence,
+        offrant analyse, tableaux de bord, solutions IA et appui à la décision basé sur les données
+        pour les entreprises et institutions.
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn" href="projects.html" data-lang="en">See Our Projects</a>
+        <a class="btn" href="projects.html" data-lang="fr">Voir nos projets</a>
+
+        <a class="btn secondary" href="contact.html" data-lang="en">Contact Us</a>
+        <a class="btn secondary" href="contact.html" data-lang="fr">Contactez-nous</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="lang.js"></script>
+</body>
+</html>
