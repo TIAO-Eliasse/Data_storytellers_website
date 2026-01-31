@@ -1,40 +1,77 @@
-<section class="about-hero">
-  <div class="about-content">
-    <h2 data-lang="en">Our Mission</h2>
-    <h2 data-lang="fr">Notre mission</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Data Storytellers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <p data-lang="en">
-      At Data Storytellers (DST), we are committed to delivering rigorous, actionable,
-      and ethical data insights to support strategic decision-making. Our mission is to
-      empower organizations to transform data into impact.
-    </p>
-
-    <p data-lang="fr">
-      Chez Data Storytellers (DST), nous nous engageons à fournir des analyses de données
-      rigoureuses, actionnables et éthiques pour appuyer la prise de décision stratégique.
-      Notre mission est d’aider les organisations à transformer les données en impact réel.
-    </p>
-
-    <div class="about-values">
-      <div class="value">
-        <span class="icon">📊</span>
-        <p data-lang="en">Data Excellence</p>
-        <p data-lang="fr">Excellence des données</p>
-      </div>
-      <div class="value">
-        <span class="icon">🤝</span>
-        <p data-lang="en">Ethical Approach</p>
-        <p data-lang="fr">Approche éthique</p>
-      </div>
-      <div class="value">
-        <span class="icon">🚀</span>
-        <p data-lang="en">Impactful Solutions</p>
-        <p data-lang="fr">Solutions à impact</p>
-      </div>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="index.html">DST</a>
     </div>
+    <ul>
+      <li><a href="index.html" data-lang="en">Home</a><a href="index.html" data-lang="fr">Accueil</a></li>
+      <li><a href="about.html" data-lang="en">About</a><a href="about.html" data-lang="fr">À propos</a></li>
+      <li><a href="projects.html" data-lang="en">Projects</a><a href="projects.html" data-lang="fr">Projets</a></li>
+      <li><a href="team.html" data-lang="en">Team</a><a href="team.html" data-lang="fr">Équipe</a></li>
+      <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="fr">Contactez-nous</a></li>
+    </ul>
+    <div class="lang-switch">
+      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="setLanguage('fr')">FR</button>
+    </div>
+  </nav>
 
-    <a class="btn" href="projects.html" data-lang="en">Explore Our Work</a>
-    <a class="btn" href="projects.html" data-lang="fr">Découvrir nos projets</a>
-  </div>
-</section>
+  <!-- About Section -->
+  <section class="about-hero">
+    <div class="about-content">
+      <h2 data-lang="en">Our Mission</h2>
+      <h2 data-lang="fr">Notre mission</h2>
 
+      <p data-lang="en">
+        At Data Storytellers (DST), we are committed to delivering rigorous, actionable,
+        and ethical data insights to support strategic decision-making. Our mission is to
+        empower organizations to transform data into impact.
+      </p>
+
+      <p data-lang="fr">
+        Chez Data Storytellers (DST), nous nous engageons à fournir des analyses de données
+        rigoureuses, actionnables et éthiques pour appuyer la prise de décision stratégique.
+        Notre mission est d’aider les organisations à transformer les données en impact réel.
+      </p>
+
+      <div class="about-values">
+        <div class="value">
+          <span class="icon">📊</span>
+          <p data-lang="en">Data Excellence</p>
+          <p data-lang="fr">Excellence des données</p>
+        </div>
+        <div class="value">
+          <span class="icon">🤝</span>
+          <p data-lang="en">Ethical Approach</p>
+          <p data-lang="fr">Approche éthique</p>
+        </div>
+        <div class="value">
+          <span class="icon">🚀</span>
+          <p data-lang="en">Impactful Solutions</p>
+          <p data-lang="fr">Solutions à impact</p>
+        </div>
+      </div>
+
+      <a class="btn" href="projects.html" data-lang="en">Explore Our Work</a>
+      <a class="btn" href="projects.html" data-lang="fr">Découvrir nos projets</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Data Storytellers. All rights reserved.</p>
+  </footer>
+
+  <script src="lang.js"></script>
+</body>
+</html>
